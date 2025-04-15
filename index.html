@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto de Conhecimento & Inteligência - IC&I</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #fdfcf8;
+      color: #333;
+    }
+    header {
+      background-color: #ffffff;
+      color: #002b5c;
+      padding: 2rem 1rem 1rem;
+      text-align: center;
+      border-bottom: 4px solid #002b5c;
+    }
+    header img {
+      max-width: 180px;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      font-style: italic;
+    }
+    nav {
+      background-color: #002b5c;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+    section {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section h2 {
+      border-bottom: 3px solid #e3a000;
+      padding-bottom: 0.5rem;
+      color: #002b5c;
+    }
+    .trilha {
+      background-color: #fff7f4;
+      border: 1px solid #ffc5c5;
+      border-left: 8px solid #e33d3d;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-radius: 5px;
+    }
+    .trilha h3 {
+      margin-top: 0;
+      color: #b60000;
+    }
+    footer {
+      background-color: #002b5c;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    form input, form textarea {
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      padding: 0.7rem;
+      background-color: #e33d3d;
+      color: white;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    form button:hover {
+      background-color: #b60000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpeg" alt="Logo IC&I">
+    <h1>Instituto de Conhecimento & Inteligência</h1>
+    <p>Construindo de forma constante conhecimento de excelência</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#manifesto">Manifesto</a>
+    <a href="#trilhas">Trilhas</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Quem Somos</h2>
+    <p>O IC&I nasce da urgência de um novo tempo. Um tempo em que o saber não pode mais ser fragmentado. Buscamos ampliar a consciência e aperfeiçoar continuamente a inteligência humana, promovendo a formação de alto nível e a elevação do ser.</p>
+  </section>
+
+  <section id="manifesto">
+    <h2>Manifesto</h2>
+    <p>O verdadeiro conhecimento liberta, integra e transforma. A inteligência, aliada à consciência, é capaz de criar realidades mais justas, plenas e virtuosas. Somos uma instituição que transcende o ensino tradicional: cultivamos mestres, inspiramos líderes e formamos consciências.</p>
+  </section>
+
+  <section id="trilhas">
+    <h2>Trilhas de Conhecimento</h2>
+    <div class="trilha">
+      <h3>Direito Tributário de Excelência</h3>
+      <p>Mentorias e cursos com abordagem prática, estratégica e humanizada sobre a atuação no Direito Tributário moderno.</p>
+    </div>
+    <div class="trilha">
+      <h3>Consciência, Espiritualidade e Inteligência Humana</h3>
+      <p>Trilhas formativas baseadas em expansão de consciência, espiritualidade integrativa, sabedoria ancestral, física quântica e valores éticos universais. Jornadas que unem neurociência, filosofia e práticas de aperfeiçoamento da inteligência emocional, cognitiva e social.</p>
+    </div>
+    <p>Em breve, disponibilizaremos datas, inscrições e conteúdos exclusivos para cada trilha. Fique atento às atualizações!</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Instituto de Conhecimento & Inteligência - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
